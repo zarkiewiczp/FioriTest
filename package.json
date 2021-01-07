@@ -7,13 +7,14 @@
   "license": "ISC",
   "scripts": {
     "serveUI5": "ui5 serve",
-    "proxy": "node proxy.js"
+    "proxy": "node proxy.js",
+    "debug": "ui5 --debug-brk serve"
   },
   "devDependencies": {
     "express": "^4.17.1",
     "http-proxy": "^1.18.1"
   },
   "dependencies": {
-    "@ui5/cli": "^2.6.2"
+    "@ui5/cli": "^2.7.1"
   }
 }
