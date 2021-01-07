@@ -3,7 +3,8 @@
 ## First start: use terminal commands
 
 - npm install
-- ui5 install -g
+<!-- - ui5 install -g -->
+- npm i @ui5/cli
 
 ## Start project: use terminal commands:
 
